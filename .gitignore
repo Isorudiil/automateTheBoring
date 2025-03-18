@@ -4,3 +4,5 @@ __pycache__/
 mcb.bak
 mcb.dat
 mcb.dir
+.vscode
+madlib.txt
