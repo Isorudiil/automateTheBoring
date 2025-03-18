@@ -1,2 +1,6 @@
+<<<<<<< HEAD
+=======
+.DS_Store
+>>>>>>> 8907c5d15ef3ba8df182de3b33a867b77c35ee82
 .venv
 __pycache__/
