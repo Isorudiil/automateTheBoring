@@ -12,9 +12,9 @@ import re
 import shutil
 from pathlib import Path
 
-extension = input('What extension would you like to copy (format: .jpg)? ')
-folder = Path(input('Please provide the absolute path to the folder you want to copy from: '))
-newFolder = Path(input('Please input the absolute path to your new folder: '))
+extension = input('What extension would you like to copy (format: .jpg, regexes accepted)?\n')
+folder = Path(input('Please provide the absolute path to the folder you want to copy from:\n'))
+newFolder = Path(input('Please input the absolute path to your new folder:\n'))
 
 fileRegex = re.compile(f'.*?{extension}')
 
@@ -24,4 +24,5 @@ for folderName, subfolders, filenames in os.walk(folder):
         if foundFile == None:
             continue
         oldfolder = Path(folderName)
-        shutil.copy(oldfolder / file, newFolder)
+        #shutil.copy(oldfolder / file, newFolder)
+        print(f'{oldfolder/file}\n{newFolder}')
