@@ -24,5 +24,4 @@ for folderName, subfolders, filenames in os.walk(folder):
         if foundFile == None:
             continue
         oldfolder = Path(folderName)
-        #shutil.copy(oldfolder / file, newFolder)
-        print(f'{oldfolder/file}\n{newFolder}')
+        shutil.copy(oldfolder / file, newFolder)
