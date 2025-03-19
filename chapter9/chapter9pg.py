@@ -5,5 +5,5 @@
 #     totalSize += os.path.getsize(os.path.join('/Users/katieherald', filename))
 # print(totalSize)
 
-alist = []
-print(str(alist))
+# alist = []
+# print(str(alist))
