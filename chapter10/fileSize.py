@@ -11,6 +11,8 @@ sizeCheck = int(input('Find files larger than (value in MB):\n'))
 for folderName, subfolders, filenames in os.walk(path):
     for file in filenames:
         folderPath = Path(folderName)
+        if len(str(folderPath / file)) >= 255:
+            continue
         filesize = os.path.getsize(folderPath / file)
         if filesize / (10**6) > sizeCheck:
             print(folderPath / file)
