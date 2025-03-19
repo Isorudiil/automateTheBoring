@@ -1,7 +1,8 @@
 # Automate The Boring Stuff With Python Repo
 
 ## Contents:
-1. Chapter 9 - Reading and Writing Files
+<details>
+    <summary>1. Chapter 9 - Reading and Writing Files</summary>
     - chapter9pg.py
         - Chapter 9 Playground file
     - madlib.py
@@ -10,7 +11,9 @@
         - Saves and loads pieces of text to the clipboard
     - randomQuizGenerator.py
         - Creates quizzes with questions and answers in random order, along with the answer key.
-2. Chapter 10 - Organizing Files
+</details>
+<details>
+    <summary>2. Chapter 10 - Organizing Files</summary>
     - ch10pg.py
         - Chapter 10 Playground file
     - backupToZip.py
@@ -27,3 +30,5 @@
         - Walks through a folder tree and searches for files with a certain file extension (.pdf, .jpg, etc.). Copies these files from their current location to a specified new location.
     - spamGen.py
         - Ever wanted to generate a bunch of useless files to use for practice coding problems? Look no further than spamGen. spamGen will generate your provided prefix appended with numbers at the end so you can test certain programs. It will even add in a random missing file!
+</details>
+
